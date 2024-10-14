@@ -1,0 +1,158 @@
+/* General Styles */
+body {
+    display: grid;
+    place-items: center ;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f5f5f5;
+}
+
+.header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 50px 430px 50px 430px;
+    margin: 0px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 3rem;
+}
+
+header p {
+    font-size: 1.2rem;
+}
+
+section {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+/* About Section */
+#about img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+#about p {
+    font-size: 1.2rem;
+}
+
+/* Skills Section */
+#skills ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#skills ul li {
+    font-size: 1.2rem;
+    padding: 10px;
+    display: inline-block;
+    background-color: #333;
+    color: white;
+    margin: 5px;
+    border-radius: 5px;
+}
+
+/* Projects Section */
+.project-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.project-item {
+    margin: 20px;
+    width: 300px;
+    text-align: left;
+}
+
+.project-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.project-item h3 {
+    font-size: 1.5rem;
+    margin-top: 10px;
+}
+
+/* Resume Section */
+#resume a {
+    font-size: 1.2rem;
+    color: #333;
+    text-decoration: none;
+    border: 2px solid #333;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+#resume a:hover {
+    background-color: #333;
+    color: white;
+}
+
+/* Contact Section */
+#contact p {
+    font-size: 1.2rem;
+}
+
+/* Footer Section */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 10px ;
+}
+
+footer p {
+    margin: 0;
+    padding: 20px 550px 20px 550px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    height: 20vh;
+    gap: 137px;
+    background-color: black;
+    padding: 38px;
+}
+
+a img {
+    height: 60px;
+    width: 61px;
+    border-radius: 50px;
+
+}
+
+a {
+    height: 100px;
+    width: 100px;
+    background-color: aliceblue;
+    border-radius: 50px;
+    text-align: center;
+    margin: 10px;
+    box-shadow: 1px 4px 2px 2px #e6e6e9;
+    line-height: 154px;
+}
+
+a i img {
+    transition: all 0.4s linear;
+}
+
+a:hover i img {
+    transform: scale(1.4);
+}
